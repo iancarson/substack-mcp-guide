@@ -1,0 +1,75 @@
+{
+  "_comment": "Substack MCP configurations for Claude Desktop, Claude Code, and Cursor.",
+  "_instructions": "Copy the relevant section into your claude_desktop_config.json or .claude/mcp.json. Replace placeholder values with your actual credentials.",
+
+  "examples": {
+
+    "claude_desktop_minimal": {
+      "mcpServers": {
+        "substack": {
+          "command": "npx",
+          "args": ["-y", "@marcomoauro/substack-mcp"],
+          "env": {
+            "SUBSTACK_API_KEY": "YOUR_SUBSTACK_API_KEY",
+            "SUBSTACK_PUBLICATION_URL": "https://yourpublication.substack.com"
+          }
+        }
+      }
+    },
+
+    "claude_desktop_with_research": {
+      "mcpServers": {
+        "substack-publish": {
+          "command": "npx",
+          "args": ["-y", "@marcomoauro/substack-mcp"],
+          "env": {
+            "SUBSTACK_API_KEY": "YOUR_SUBSTACK_API_KEY",
+            "SUBSTACK_PUBLICATION_URL": "https://yourpublication.substack.com"
+          }
+        },
+        "substack-research": {
+          "command": "npx",
+          "args": ["-y", "mcp-substack"],
+          "env": {}
+        }
+      }
+    },
+
+    "claude_desktop_notes_and_social": {
+      "mcpServers": {
+        "substack-notes": {
+          "command": "npx",
+          "args": ["-y", "@postcli/substack"],
+          "env": {
+            "SUBSTACK_SESSION_COOKIE": "YOUR_SUBSTACK_SID_COOKIE"
+          }
+        }
+      }
+    },
+
+    "claude_code_project_config": {
+      "substack": {
+        "command": "npx",
+        "args": ["-y", "@marcomoauro/substack-mcp"],
+        "env": {
+          "SUBSTACK_API_KEY": "YOUR_SUBSTACK_API_KEY",
+          "SUBSTACK_PUBLICATION_URL": "https://yourpublication.substack.com"
+        }
+      }
+    },
+
+    "env_file_reference": {
+      "_note": "Best practice: store secrets in .env and reference them",
+      "mcpServers": {
+        "substack": {
+          "command": "npx",
+          "args": ["-y", "@marcomoauro/substack-mcp"],
+          "env": {
+            "SUBSTACK_API_KEY": "${SUBSTACK_API_KEY}",
+            "SUBSTACK_PUBLICATION_URL": "${SUBSTACK_PUBLICATION_URL}"
+          }
+        }
+      }
+    }
+  }
+}
