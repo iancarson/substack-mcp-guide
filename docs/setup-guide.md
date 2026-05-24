@@ -182,4 +182,4 @@ This gives you both publishing tools and research/reading tools in one Claude se
 
 ## Want Scheduling + Cross-Posting Without MCP Maintenance?
 
-MCP gives you Claude-native control over Substack. If what you actually want is reliable scheduled publishing + automatic cross-posting to LinkedIn, Medium, and X — [Narrareach](https://narrareach.com) handles that without any config files, credential rotation, or maintenance. Both approaches have their place depending on whether you're a developer or a creator.
+MCP gives you Claude-native control over Substack. If what you actually want is reliable scheduled publishing + automatic cross-posting to LinkedIn, Medium, and X — [Narrareach](https://narrareach.com/features/substack-mcp-integration) handles that without any config files, credential rotation, or maintenance. Both approaches have their place depending on whether you're a developer or a creator.

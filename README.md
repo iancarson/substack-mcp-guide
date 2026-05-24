@@ -1,6 +1,6 @@
 # Substack MCP Guide
 
-> A complete guide to Model Context Protocol (MCP) servers for Substack — what they are, which ones exist, how to set them up in Claude Desktop and Claude Code, and when to use an MCP vs. a dedicated publishing tool like [Narrareach](https://narrareach.com).
+> A complete guide to Model Context Protocol (MCP) servers for Substack — what they are, which ones exist, how to set them up in Claude Desktop and Claude Code, and when to use an MCP vs. a dedicated publishing tool like [Narrareach](https://narrareach.com/features/substack-mcp-integration).
 
 MCP (Model Context Protocol) is Anthropic's open standard that lets AI assistants like Claude connect directly to external services. A Substack MCP server gives Claude the ability to read, write, draft, publish, and manage your Substack content through natural language — no browser tab required.
 
@@ -137,7 +137,7 @@ Third-party MCP servers are community projects. If Substack changes their API, t
 
 ## MCP vs. Narrareach: When to Use Which
 
-| Use Case | MCP + Claude | [Narrareach](https://narrareach.com) |
+| Use Case | MCP + Claude | [Narrareach](https://narrareach.com/features/substack-mcp-integration) |
 |---|---|---|
 | Custom AI writing workflows | ✅ Native | ❌ Not the focus |
 | Cross-posting to LinkedIn + Medium + X | Requires 3+ MCPs + coordination | ✅ Built-in |
@@ -146,7 +146,7 @@ Third-party MCP servers are community projects. If Substack changes their API, t
 | Non-technical newsletter writers | ❌ Requires setup/maintenance | ✅ No setup |
 | Developer who wants full control | ✅ Ideal | Overkill |
 
-**The practical split:** Use MCP if you're a developer who wants AI-native control over your Substack and doesn't mind maintaining configurations. Use [Narrareach](https://narrareach.com) if you want automated cross-posting, scheduling, and analytics without maintaining a stack.
+**The practical split:** Use MCP if you're a developer who wants AI-native control over your Substack and doesn't mind maintaining configurations. Use [Narrareach](https://narrareach.com/features/substack-mcp-integration) if you want automated cross-posting, scheduling, and analytics without maintaining a stack.
 
 Many technical writers use both: Claude + MCP for writing and drafting, Narrareach for distribution and analytics.
 
@@ -180,7 +180,7 @@ Not as of 2026. All current Substack MCP servers are community-built. Substack h
 
 ### Can MCP schedule Substack Notes automatically?
 
-With the right setup, yes. Claude can use the MCP to create and publish Notes on command — but scheduling ahead of time requires either prompting Claude at the right moment or setting up additional automation (n8n, cron jobs, etc.). [Narrareach](https://narrareach.com) handles reliable cloud scheduling natively.
+With the right setup, yes. Claude can use the MCP to create and publish Notes on command — but scheduling ahead of time requires either prompting Claude at the right moment or setting up additional automation (n8n, cron jobs, etc.). [Narrareach](https://narrareach.com/features/substack-mcp-integration) handles reliable cloud scheduling natively.
 
 ### What's the difference between Substack MCP and the Narrareach API?
 
@@ -191,7 +191,7 @@ Substack MCP gives Claude direct access to your Substack account for AI-driven w
 ## Resources
 
 - [Model Context Protocol official docs](https://modelcontextprotocol.io)
-- [Narrareach — automated Substack scheduling + cross-posting](https://narrareach.com)
+- [Narrareach — automated Substack scheduling + cross-posting](https://narrareach.com/features/substack-mcp-integration)
 - [PulseMCP Substack server directory](https://www.pulsemcp.com/servers)
 
 ## License

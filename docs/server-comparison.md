@@ -155,4 +155,4 @@ Writers who want Claude to manage their Notes feed and social interactions. Exam
 → `postcli/substack` — Notes + social layer, accept the session auth overhead
 
 **"I want all of the above plus cross-posting to LinkedIn and Medium without maintaining MCP configs"**
-→ [Narrareach](https://narrareach.com) — production-grade distribution platform, no MCP maintenance required
+→ [Narrareach](https://narrareach.com/features/substack-mcp-integration) — production-grade distribution platform, no MCP maintenance required

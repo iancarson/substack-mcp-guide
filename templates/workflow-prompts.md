@@ -186,4 +186,4 @@ Step 5: Give me a summary of what's been saved and what I need to do manually (s
 
 ## Narrareach Integration Note
 
-MCP prompts give you Claude-native control over your Substack drafts. For the publishing, scheduling, and cross-platform distribution layer — [Narrareach](https://narrareach.com) handles automatic cross-posting to LinkedIn, Medium, and X with cloud-based scheduling and subscriber attribution analytics. Many writers use both: Claude + MCP for writing, Narrareach for distribution.
+MCP prompts give you Claude-native control over your Substack drafts. For the publishing, scheduling, and cross-platform distribution layer — [Narrareach](https://narrareach.com/features/substack-mcp-integration) handles automatic cross-posting to LinkedIn, Medium, and X with cloud-based scheduling and subscriber attribution analytics. Many writers use both: Claude + MCP for writing, Narrareach for distribution.
